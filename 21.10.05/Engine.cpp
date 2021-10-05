@@ -1,7 +1,9 @@
 #include <iostream>
+
 #include "Engine.h"
 #include "Player.h"
 #include "Map.h"
+
 using namespace std;
 
 Engine::Engine()
@@ -39,15 +41,16 @@ void Engine::Terminalize()
 
 void Engine::Input()
 {
-	cout << "입력받는다." << endl;
+	std::cout << "입력받는다." << std::endl;
 }
 
 void Engine::Process()
 {
-	cout << "처리한다." << endl;
+	std::cout << "처리한다." << std::endl;
 }
 
 void Engine::Render()
 {
-	cout << "렌더링한다." << endl;
+	//	system("cls");
+	std::cout << "렌더링한다." << std::endl;
 }

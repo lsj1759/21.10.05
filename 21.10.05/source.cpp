@@ -3,9 +3,9 @@
 
 #include "Player.h"
 #include "Engine.h"
-#include "source.h"
 
 using namespace std;
+
 
 int main()
 {
@@ -26,15 +26,6 @@ int main()
 //  Process();
 //  Redner();
 //} 
-
-
-
-
-
-
-
-
-
 
 
 //#include <string>
